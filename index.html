@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CreoForge — Forge Your Brand's Social Media Empire</title>
+    <meta name="description"
+        content="CreoForge is a premium social media agency that boosts your brand's sales with expert social media management, content creation, reels, stories, and complete account handling.">
+    <meta name="keywords"
+        content="social media agency, brand management, social media marketing, reels, content creation, CreoForge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- Floating Social Media Icons Background -->
+    <div class="floating-icons" id="floatingIcons" aria-hidden="true"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo" id="logo">
+                <span class="logo-icon"><i class="fas fa-bolt"></i></span>
+                <span class="logo-text">Creo<span class="logo-highlight">Forge</span></span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#packages" class="nav-link">Packages</a></li>
+                <li><a href="#results" class="nav-link">Results</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <a href="#contact" class="nav-cta" id="navCta">Get Started</a>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-gradient-orb hero-orb-1"></div>
+        <div class="hero-gradient-orb hero-orb-2"></div>
+        <div class="hero-gradient-orb hero-orb-3"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-badge" id="heroBadge">
+                    <i class="fas fa-rocket"></i>
+                    <span>#1 Social Media Agency</span>
+                </div>
+                <h1 class="hero-title" id="heroTitle">
+                    Forge Your Brand's
+                    <span class="gradient-text">Social Media</span>
+                    Empire
+                </h1>
+                <p class="hero-subtitle" id="heroSubtitle">
+                    We don't just manage your socials — we <strong>ignite growth</strong>, craft scroll-stopping
+                    content, and turn followers into loyal customers. Your brand deserves to dominate every feed.
+                </p>
+                <div class="hero-cta-group" id="heroCtaGroup">
+                    <a href="#packages" class="btn btn-primary" id="heroCtaPrimary">
+                        <span>View Packages</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#services" class="btn btn-outline" id="heroCtaSecondary">
+                        <span>Our Services</span>
+                        <i class="fas fa-play"></i>
+                    </a>
+                </div>
+                <div class="hero-stats" id="heroStats">
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="250">0</span><span class="stat-suffix">+</span>
+                        <span class="stat-label">Brands Scaled</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="15">0</span><span class="stat-suffix">M+</span>
+                        <span class="stat-label">Reach Generated</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="98">0</span><span class="stat-suffix">%</span>
+                        <span class="stat-label">Client Retention</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual" id="heroVisual">
+                <div class="phone-mockup">
+                    <div class="phone-notch"></div>
+                    <div class="phone-screen">
+                        <div class="mock-post">
+                            <div class="mock-post-header">
+                                <div class="mock-avatar"></div>
+                                <div class="mock-info">
+                                    <div class="mock-name"></div>
+                                    <div class="mock-time"></div>
+                                </div>
+                            </div>
+                            <div class="mock-image">
+                                <i class="fas fa-fire"></i>
+                                <span>Trending</span>
+                            </div>
+                            <div class="mock-engagement">
+                                <div class="mock-likes"><i class="fas fa-heart"></i> 12.4K</div>
+                                <div class="mock-comments"><i class="fas fa-comment"></i> 843</div>
+                                <div class="mock-shares"><i class="fas fa-share"></i> 2.1K</div>
+                            </div>
+                        </div>
+                        <div class="mock-stories">
+                            <div class="mock-story active">
+                                <div class="mock-story-ring"></div>
+                            </div>
+                            <div class="mock-story">
+                                <div class="mock-story-ring"></div>
+                            </div>
+                            <div class="mock-story">
+                                <div class="mock-story-ring"></div>
+                            </div>
+                            <div class="mock-story">
+                                <div class="mock-story-ring"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="floating-card card-followers">
+                    <i class="fas fa-users"></i>
+                    <div>
+                        <span class="fc-number">+340%</span>
+                        <span class="fc-label">Follower Growth</span>
+                    </div>
+                </div>
+                <div class="floating-card card-engagement">
+                    <i class="fas fa-chart-line"></i>
+                    <div>
+                        <span class="fc-number">+520%</span>
+                        <span class="fc-label">Engagement Rate</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator" id="scrollIndicator">
+            <div class="scroll-line"></div>
+            <span>Scroll to Explore</span>
+        </div>
+    </section>
+
+    <!-- Trusted By Section -->
+    <section class="trusted-by" id="trustedBy">
+        <div class="container">
+            <p class="trusted-label">Trusted by 250+ Brands Worldwide</p>
+            <div class="trusted-logos">
+                <div class="logo-track">
+                    <div class="brand-logo"><i class="fas fa-gem"></i> LuxVibe</div>
+                    <div class="brand-logo"><i class="fas fa-leaf"></i> GreenPulse</div>
+                    <div class="brand-logo"><i class="fas fa-star"></i> StarNova</div>
+                    <div class="brand-logo"><i class="fas fa-crown"></i> KingMedia</div>
+                    <div class="brand-logo"><i class="fas fa-fire"></i> BlazeTech</div>
+                    <div class="brand-logo"><i class="fas fa-bolt"></i> VoltBrand</div>
+                    <div class="brand-logo"><i class="fas fa-diamond"></i> PrismCo</div>
+                    <div class="brand-logo"><i class="fas fa-gem"></i> LuxVibe</div>
+                    <div class="brand-logo"><i class="fas fa-leaf"></i> GreenPulse</div>
+                    <div class="brand-logo"><i class="fas fa-star"></i> StarNova</div>
+                    <div class="brand-logo"><i class="fas fa-crown"></i> KingMedia</div>
+                    <div class="brand-logo"><i class="fas fa-fire"></i> BlazeTech</div>
+                    <div class="brand-logo"><i class="fas fa-bolt"></i> VoltBrand</div>
+                    <div class="brand-logo"><i class="fas fa-diamond"></i> PrismCo</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-cog"></i> What We Do</span>
+                <h2 class="section-title">
+                    Complete Social Media
+                    <span class="gradient-text">Solutions</span>
+                </h2>
+                <p class="section-subtitle">From strategy to execution, we handle every aspect of your social media
+                    presence so you can focus on what you do best — running your business.</p>
+            </div>
+            <div class="services-grid" id="servicesGrid">
+                <div class="service-card" id="serviceAccountMgmt">
+                    <div class="service-icon-wrap">
+                        <div class="service-icon"><i class="fas fa-user-shield"></i></div>
+                    </div>
+                    <h3>Account Management</h3>
+                    <p>Complete handling of your social media accounts across all platforms. We manage everything from
+                        profile optimization to daily operations.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Multi-platform management</li>
+                        <li><i class="fas fa-check"></i> Profile optimization</li>
+                        <li><i class="fas fa-check"></i> Community engagement</li>
+                    </ul>
+                </div>
+                <div class="service-card" id="serviceContentDesign">
+                    <div class="service-icon-wrap">
+                        <div class="service-icon"><i class="fas fa-palette"></i></div>
+                    </div>
+                    <h3>Content Design</h3>
+                    <p>Scroll-stopping visuals that capture attention. Our designers create branded content that
+                        resonates with your audience and drives action.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Custom graphics & visuals</li>
+                        <li><i class="fas fa-check"></i> Brand-consistent design</li>
+                        <li><i class="fas fa-check"></i> Carousel & infographic posts</li>
+                    </ul>
+                </div>
+                <div class="service-card featured" id="serviceReels">
+                    <div class="service-icon-wrap">
+                        <div class="service-icon"><i class="fas fa-video"></i></div>
+                    </div>
+                    <h3>Reels & Video Content</h3>
+                    <p>Viral-worthy reels and short-form videos that dominate algorithms. We script, shoot, edit, and
+                        optimize for maximum reach and engagement.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Trend-based reels creation</li>
+                        <li><i class="fas fa-check"></i> Professional editing</li>
+                        <li><i class="fas fa-check"></i> Algorithm optimization</li>
+                    </ul>
+                    <div class="featured-badge">Most Popular</div>
+                </div>
+                <div class="service-card" id="serviceStories">
+                    <div class="service-icon-wrap">
+                        <div class="service-icon"><i class="fas fa-clock"></i></div>
+                    </div>
+                    <h3>Stories & Ephemeral</h3>
+                    <p>Engaging daily stories that keep your audience hooked. Interactive polls, Q&As, and
+                        behind-the-scenes content that builds genuine connection.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Daily story planning</li>
+                        <li><i class="fas fa-check"></i> Interactive elements</li>
+                        <li><i class="fas fa-check"></i> Highlight curation</li>
+                    </ul>
+                </div>
+                <div class="service-card" id="servicePosting">
+                    <div class="service-icon-wrap">
+                        <div class="service-icon"><i class="fas fa-calendar-alt"></i></div>
+                    </div>
+                    <h3>Post Scheduling</h3>
+                    <p>Strategic posting at peak times for maximum visibility. Data-driven scheduling that ensures your
+                        content reaches the right audience.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Optimal time posting</li>
+                        <li><i class="fas fa-check"></i> Content calendar</li>
+                        <li><i class="fas fa-check"></i> Cross-platform sync</li>
+                    </ul>
+                </div>
+                <div class="service-card" id="serviceAnalytics">
+                    <div class="service-icon-wrap">
+                        <div class="service-icon"><i class="fas fa-chart-bar"></i></div>
+                    </div>
+                    <h3>Analytics & Growth</h3>
+                    <p>Data-driven insights and monthly reports that show real ROI. We track, analyze, and optimize your
+                        strategy for continuous growth.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Monthly performance reports</li>
+                        <li><i class="fas fa-check"></i> ROI tracking</li>
+                        <li><i class="fas fa-check"></i> Strategy optimization</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process" id="process">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-route"></i> How It Works</span>
+                <h2 class="section-title">
+                    Our Proven
+                    <span class="gradient-text">Process</span>
+                </h2>
+                <p class="section-subtitle">A streamlined 4-step approach that transforms your social media presence
+                    from ordinary to extraordinary.</p>
+            </div>
+            <div class="process-timeline" id="processTimeline">
+                <div class="process-step" id="processStep1">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3>Discovery & Audit</h3>
+                        <p>We deep-dive into your brand, audience, and competitors. A complete audit reveals
+                            opportunities and sets the foundation for your strategy.</p>
+                    </div>
+                    <div class="step-icon"><i class="fas fa-search"></i></div>
+                </div>
+                <div class="process-step" id="processStep2">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3>Strategy & Planning</h3>
+                        <p>Custom content strategy, brand voice development, and a detailed content calendar tailored to
+                            your goals and audience behavior.</p>
+                    </div>
+                    <div class="step-icon"><i class="fas fa-chess"></i></div>
+                </div>
+                <div class="process-step" id="processStep3">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3>Create & Execute</h3>
+                        <p>Our creative team designs stunning posts, reels, stories and manages your daily content.
+                            Everything is on-brand and algorithm-optimized.</p>
+                    </div>
+                    <div class="step-icon"><i class="fas fa-magic"></i></div>
+                </div>
+                <div class="process-step" id="processStep4">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <h3>Analyze & Scale</h3>
+                        <p>Monthly analytics, performance reviews, and strategy refinements. We continuously optimize to
+                            scale your results month over month.</p>
+                    </div>
+                    <div class="step-icon"><i class="fas fa-rocket"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section class="packages" id="packages">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-box-open"></i> Pricing</span>
+                <h2 class="section-title">
+                    Complete Service
+                    <span class="gradient-text">Packages</span>
+                </h2>
+                <p class="section-subtitle">Choose the perfect package to ignite your brand's social media growth. Every
+                    package includes dedicated account management.</p>
+            </div>
+            <div class="packages-grid" id="packagesGrid">
+                <div class="package-card" id="packageStarter">
+                    <div class="package-header">
+                        <span class="package-name">Starter</span>
+                        <div class="package-price">
+                            <span class="currency">₹</span>
+                            <span class="amount">6,999</span>
+                            <span class="period">/mo</span>
+                        </div>
+                        <p class="package-desc">Perfect for small brands ready to establish their social media presence.
+                        </p>
+                    </div>
+                    <ul class="package-features">
+                        <li><i class="fas fa-check-circle"></i> 2 Social Media Platforms</li>
+                        <li><i class="fas fa-check-circle"></i> 12 Posts / Month</li>
+                        <li><i class="fas fa-check-circle"></i> 4 Reels / Month</li>
+                        <li><i class="fas fa-check-circle"></i> Story Management</li>
+                        <li><i class="fas fa-check-circle"></i> Content Calendar</li>
+                        <li><i class="fas fa-check-circle"></i> Monthly Analytics Report</li>
+                        <li class="disabled"><i class="fas fa-times-circle"></i> Paid Ads Management</li>
+                        <li class="disabled"><i class="fas fa-times-circle"></i> Influencer Outreach</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline package-btn" id="packageStarterBtn">Get Started</a>
+                </div>
+                <div class="package-card popular" id="packageGrowth">
+                    <div class="popular-tag">Most Popular</div>
+                    <div class="package-header">
+                        <span class="package-name">Growth</span>
+                        <div class="package-price">
+                            <span class="currency">₹</span>
+                            <span class="amount">10,999</span>
+                            <span class="period">/mo</span>
+                        </div>
+                        <p class="package-desc">For brands ready to scale and dominate their niche across platforms.</p>
+                    </div>
+                    <ul class="package-features">
+                        <li><i class="fas fa-check-circle"></i> 4 Social Media Platforms</li>
+                        <li><i class="fas fa-check-circle"></i> 24 Posts / Month</li>
+                        <li><i class="fas fa-check-circle"></i> 12 Reels / Month</li>
+                        <li><i class="fas fa-check-circle"></i> Daily Story Management</li>
+                        <li><i class="fas fa-check-circle"></i> Content Calendar</li>
+                        <li><i class="fas fa-times-circle"></i> Influencer Outreach</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary package-btn" id="packageGrowthBtn">Get Started</a>
+                </div>
+                <div class="package-card" id="packageEnterprise">
+                    <div class="package-header">
+                        <span class="package-name">Enterprise</span>
+                        <div class="package-price">
+                            <span class="currency">₹</span>
+                            <span class="amount">29,999</span>
+                            <span class="period">/mo</span>
+                        </div>
+                        <p class="package-desc">Full-scale agency partnership for brands that demand total social
+                            dominance.</p>
+                    </div>
+                    <ul class="package-features">
+                        <li><i class="fas fa-check-circle"></i> All Social Media Platforms</li>
+                        <li><i class="fas fa-check-circle"></i> Unlimited Posts</li>
+                        <li><i class="fas fa-check-circle"></i> Unlimited Reels</li>
+                        <li><i class="fas fa-check-circle"></i> 24/7 Story Management</li>
+                        <li><i class="fas fa-check-circle"></i> Content Calendar</li>
+                        <li><i class="fas fa-check-circle"></i> Real-Time Dashboard</li>
+                        <li><i class="fas fa-check-circle"></i> Paid Ads Management</li>
+                        <li><i class="fas fa-check-circle"></i> Influencer Outreach</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline package-btn" id="packageEnterpriseBtn">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section class="results" id="results">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-trophy"></i> Real Results</span>
+                <h2 class="section-title">
+                    What Our Clients
+                    <span class="gradient-text">Achieve</span>
+                </h2>
+                <p class="section-subtitle">Don't just take our word for it — these numbers speak for themselves.</p>
+            </div>
+            <div class="results-grid" id="resultsGrid">
+                <div class="result-card" id="result1">
+                    <div class="result-metric">
+                        <span class="result-number" data-target="340">0</span><span class="result-suffix">%</span>
+                    </div>
+                    <h3>Average Follower Growth</h3>
+                    <p>Our clients see explosive follower growth within the first 90 days of partnership.</p>
+                </div>
+                <div class="result-card" id="result2">
+                    <div class="result-metric">
+                        <span class="result-number" data-target="5">0</span><span class="result-suffix">x</span>
+                    </div>
+                    <h3>ROI Multiplier</h3>
+                    <p>For every dollar invested, our clients earn 5x back through social-driven sales.</p>
+                </div>
+                <div class="result-card" id="result3">
+                    <div class="result-metric">
+                        <span class="result-number" data-target="10">0</span><span class="result-suffix">M+</span>
+                    </div>
+                    <h3>Monthly Impressions</h3>
+                    <p>Combined monthly impressions across all client accounts and platforms.</p>
+                </div>
+                <div class="result-card" id="result4">
+                    <div class="result-metric">
+                        <span class="result-number" data-target="48">0</span><span class="result-suffix">hrs</span>
+                    </div>
+                    <h3>Onboarding Time</h3>
+                    <p>From signup to first post live — our rapid onboarding gets you results fast.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-quote-left"></i> Testimonials</span>
+                <h2 class="section-title">
+                    Loved by
+                    <span class="gradient-text">Brands</span>
+                </h2>
+            </div>
+            <div class="testimonials-grid" id="testimonialsGrid">
+                <div class="testimonial-card" id="testimonial1">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"CreoForge completely transformed our Instagram. We went from 2K to 45K
+                        followers in just 4 months. The content quality is absolutely insane."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar" style="background: linear-gradient(135deg, #f093fb, #f5576c);">
+                            <span>KS</span>
+                        </div>
+                        <div>
+                            <strong>Kushagra Srivastava</strong>
+                            <span>CEO, CreoForge</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" id="testimonial2">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Their reels strategy alone doubled our sales. The team understands
+                        algorithms like nobody else. Best investment we've ever made for our brand."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar" style="background: linear-gradient(135deg, #4facfe, #00f2fe);">
+                            <span>AP</span>
+                        </div>
+                        <div>
+                            <strong>Ayushka Pandey</strong>
+                            <span>AyuGriham Foundation</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" id="testimonial3">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"We tried 3 agencies before CreoForge. The difference is night and day.
+                        They don't just post — they build a brand. Our engagement is through the roof."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar" style="background: linear-gradient(135deg, #a18cd1, #fbc2eb);">
+                            <span>AS</span>
+                        </div>
+                        <div>
+                            <strong>Ankush Singh</strong>
+                            <span>Inicio Planners</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" id="contact">
+        <div class="cta-gradient-bg"></div>
+        <div class="container">
+            <div class="cta-content" id="ctaContent">
+                <h2 class="cta-title">Ready to <span class="gradient-text">Dominate</span> Social Media?</h2>
+                <p class="cta-subtitle">Join 250+ brands that trust CreoForge to fuel their growth. Let's build
+                    something extraordinary together.</p>
+                <form class="cta-form" id="ctaForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="formName" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="formEmail" placeholder="Your Email" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="formBrand" placeholder="Brand Name">
+                        </div>
+                        <div class="form-group">
+                            <select id="formPackage">
+                                <option value="" disabled selected>Select Package</option>
+                                <option value="starter">Starter — Rs. 799/mo</option>
+                                <option value="growth">Growth — Rs. 1,499/mo</option>
+                                <option value="enterprise">Enterprise — Rs. 2,999/mo</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group full-width">
+                        <textarea id="formMessage" rows="4"
+                            placeholder="Tell us about your brand and goals..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-lg" id="formSubmitBtn">
+                        <span>Let's Forge Your Empire</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <span class="logo-icon"><i class="fas fa-bolt"></i></span>
+                        <span class="logo-text">Creo<span class="logo-highlight">Forge</span></span>
+                    </a>
+                    <p>Forging social media empires for brands that dare to stand out. Let's turn your followers into
+                        customers.</p>
+                    <div class="footer-socials">
+                        <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                        <a href="#" class="social-link" aria-label="Twitter/X"><i class="fab fa-x-twitter"></i></a>
+                        <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Account Management</a></li>
+                        <li><a href="#services">Content Design</a></li>
+                        <li><a href="#services">Reels & Videos</a></li>
+                        <li><a href="#services">Stories</a></li>
+                        <li><a href="#services">Analytics</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Case Studies</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> hello@creoforge.com</li>
+                        <li><i class="fas fa-phone"></i> +91 8840887100</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Lucknow - U.P. INDIA</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 CreoForge. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
